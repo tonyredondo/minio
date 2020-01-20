@@ -24,7 +24,7 @@ jobs:
             dep ensure
         fi
 
-    - name: Scope for Go
+    - name: Scope for go
       uses: undefinedlabs/scope-for-go-action@master
       with:
         dsn: ${{secrets.SCOPE_DSN}} # required
