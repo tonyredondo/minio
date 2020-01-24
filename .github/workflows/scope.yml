@@ -25,6 +25,6 @@ jobs:
         fi
 
     - name: Scope for go
-      uses: undefinedlabs/scope-for-go-action@master
+      uses: undefinedlabs/scope-for-go-action@codepath
       with:
-        dsn: ${{secrets.SCOPE_DSN}} # required
+        dsn: ${{secrets.SCOPE_DSN}}
